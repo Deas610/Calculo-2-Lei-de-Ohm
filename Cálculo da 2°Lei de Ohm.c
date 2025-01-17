@@ -2,7 +2,7 @@
 
 // Define a estrutura de dados
 typedef struct {
-    float area;         // Area da secao transversal (mm²)
+    float area;         // Area da secao transversal (mmÂ²)
     float comprimento;  // Comprimento do material (mm^2)
     int material;       // Indice do material escolhido
 } Dados;
@@ -10,8 +10,8 @@ typedef struct {
 // Estrutura para armazenar propriedades dos materiais
 typedef struct {
     char nome[50];
-    float resistividade; // Resistividade a 20 °C (ohm·metro)
-    float coeficiente;   // Coeficiente de temperatura (1/°C)
+    float resistividade; // Resistividade a 20 Â°C (ohmÂ·metro)
+    float coeficiente;   // Coeficiente de temperatura (1/Â°C)
 } Material;
 
 // Funcao para calcular a resistencia
